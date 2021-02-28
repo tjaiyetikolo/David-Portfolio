@@ -1,0 +1,26 @@
+$big: 3rem;
+$small: 2.5rem;
+$extra-small: 2rem;
+$little: 1.5rem;
+$extra-little: 1.2rem;
+$tiny: 1rem;
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@import 'resets';
+@import 'globals';
+@import 'header';
+@import 'introduction';
+@import 'about-me';
+@import 'work';
+@import 'skill';
+@import 'gallery';
+@import 'extra-skill';
+@import 'contact';
+@import 'footer';
+@import 'media';

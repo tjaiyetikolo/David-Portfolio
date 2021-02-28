@@ -1,0 +1,37 @@
+/*HEADER SECTION*/
+.header {
+  min-height: 20vh;
+  @include flex(center, center, row);
+}
+
+nav {
+  width: 100%;
+  @include flex(space-between, center, row);
+  h1 {
+    flex: 1.5 1 5rem;
+    font-size: $big;
+  }
+}
+.nav-right {
+  flex: 1 1 0rem;
+  min-height: 20%;
+}
+.links {
+  @include flex(space-around, center, row);
+}
+.links ul {
+  @include flex(space-around, center, row);
+  li {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: $little;
+  }
+}
+
+.button {
+  width: 25%;
+}
+
+button {
+  width: 100%;
+}

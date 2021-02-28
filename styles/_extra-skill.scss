@@ -1,0 +1,22 @@
+/*EXTRA SKILL SECTION*/
+.extra-skill {
+  min-height: 10vh;
+  padding: 1rem 0rem 5rem 0rem;
+  @include flex(space-between, center, row);
+}
+
+.extra-skill-left {
+  font-size: $extra-little;
+  flex-wrap: wrap;
+  flex: 2 1 10rem;
+  h3 {
+    font-size: $little;
+    padding: 1rem 0rem;
+  }
+}
+
+.extra-skill-right {
+  flex: 1 1 20rem;
+  display: flex;
+  justify-content: flex-end;
+}

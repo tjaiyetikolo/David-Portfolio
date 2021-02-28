@@ -1,0 +1,41 @@
+/*GALLERY SECTION*/
+.gallery {
+  min-height: 50vh;
+  padding: 5rem 0rem;
+}
+
+.gallery header h1 {
+  font-size: $small;
+  padding: 2rem 0rem;
+}
+
+.pictures {
+  display: grid;
+  margin: auto;
+  max-width: 95%;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, min-content);
+  grid-gap: 2rem;
+  grid-template-areas:
+    'box1 box1'
+    'box2 box3'
+    'box4 box5';
+}
+
+.img1 {
+  grid-area: box1;
+}
+.img2 {
+  grid-area: box2;
+}
+.img3 {
+  grid-area: box3;
+}
+.img4 {
+  grid-area: box4;
+}
+.img5 {
+  grid-area: box5;
+}

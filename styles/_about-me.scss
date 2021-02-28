@@ -1,0 +1,23 @@
+/*ABOUT ME*/
+.about-me {
+  min-height: 100vh;
+  @include flex(space-between, center, row);
+}
+
+.about-me-text {
+  flex: 3 1 15rem;
+  margin-right: 3rem;
+}
+
+.about-me-text h1 {
+  padding: 1rem 0rem;
+  font-size: $big;
+}
+.about-me-text p {
+  font-size: $little;
+  flex-wrap: wrap;
+}
+
+.about-me-img {
+  flex: 1 1 20rem;
+}

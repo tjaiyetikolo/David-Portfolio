@@ -1,0 +1,55 @@
+/*GLOBALS*/
+html {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.header,
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+p,
+li,
+h5 {
+  font-weight: 400;
+}
+
+li {
+  cursor: pointer;
+  list-style: none;
+}
+
+h6 {
+  font-weight: 300;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+button {
+  background: #ff5678;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+
+.pink {
+  color: #ff5678;
+}
+
+.gray {
+  color: #999999;
+}

@@ -1,0 +1,42 @@
+/*CONTACT SECTION*/
+.contact {
+  min-height: 40vh;
+  @include flex(space-between, center, row);
+  padding: 15rem 0rem 5rem 0rem;
+}
+
+.contact-left {
+  flex-wrap: wrap;
+  flex: 1 1 20rem;
+  h2 {
+    font-size: $big;
+  }
+  p {
+    font-size: $extra-little;
+    padding: 0rem 0rem 2rem 0rem;
+    line-height: 1.8rem;
+  }
+}
+
+.contact-left button {
+  padding: 1rem;
+  font-size: $little;
+  width: 40%;
+}
+
+.contact-right {
+  flex: 2 1 20rem;
+  @include flex(flex-end, center, column);
+  h2 {
+    font-size: $big;
+  }
+}
+
+.contact-right-body {
+  text-align: left;
+}
+
+.contact-right .dribble {
+  font-size: $little;
+  line-height: 3.5rem;
+}

@@ -1,0 +1,45 @@
+/*WORK SECTION*/
+.work {
+  min-height: 40vh;
+  padding: 5rem 0rem;
+}
+
+.work header {
+  @include flex(space-between, center, row);
+}
+
+.work-left {
+  font-size: $little;
+}
+
+.work-right {
+  font-size: $tiny;
+  @include flex(flex-start, center, row);
+  h5 {
+    padding-right: 0.5rem;
+  }
+}
+
+.work-body {
+  @include flex(center, flex-start, column);
+}
+
+.work-body-top,
+.work-body-bottom {
+  width: 100%;
+  padding: 2rem 0rem;
+  @include flex(space-between, flex-start, row);
+  h6 {
+    margin: 0;
+    font-size: $tiny;
+  }
+  h5 {
+    margin: 0;
+    font-size: $extra-little;
+  }
+}
+
+.work-body-bottom-us-mobile2,
+.work-body-bottom-us-mobile3 {
+  padding-right: 3rem;
+}

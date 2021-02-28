@@ -1,0 +1,42 @@
+/*INTRODUCTION SECTION*/
+.introduction {
+  min-height: 80vh;
+  @include flex(space-between, center, row);
+}
+
+.introduction-text {
+  flex: 2.5 1 20rem;
+  flex-wrap: wrap;
+}
+
+.introduction-image {
+  flex: 1 1 20rem;
+  flex-wrap: wrap;
+}
+
+.introduction-text h1 {
+  font-size: $big;
+}
+.introduction-text p {
+  font-size: $small;
+  padding: 0.5rem 0rem;
+}
+
+.introduction-text-links {
+  padding: 0;
+  @include flex(flex-start, center, row);
+  button {
+    font-size: $extra-small;
+    width: 100%;
+  }
+}
+
+.introduction-text-links ul {
+  width: 60%;
+  padding: 0;
+  @include flex(flex-start, center, row);
+  li {
+    margin-left: 2rem;
+    font-size: $extra-small;
+  }
+}
